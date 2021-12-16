@@ -1,3 +1,4 @@
+<meta charset = "utf-8">
 <script>
 function getPrices() {
     return {
@@ -63,7 +64,7 @@ function getPrices() {
     });
   
     var prodPrice = document.getElementById("prodPrice"); 
-    prodPrice.innerHTML = price + " рублей";
+    prodPrice.innerHTML = price + " Г°ГіГЎГ«ГҐГ©";
   }
   
   window.addEventListener('DOMContentLoaded', function (event) {
@@ -109,26 +110,26 @@ function getPrices() {
 
 <div class="container mb-3 text-center" id="hard_calc">
         <label>
-            Кол-во товаров:
+            ГЉГ®Г«-ГўГ® ГІГ®ГўГ Г°Г®Гў:
             <br/>
-            <input id="quantity" type="text" name="quantity-name" placeholder="Введите значение">
+            <input id="quantity" type="text" name="quantity-name" placeholder="Г‚ГўГҐГ¤ГЁГІГҐ Г§Г­Г Г·ГҐГ­ГЁГҐ">
         </label>
         <br />
-        <div id="prodPrice">Выберите тип товара</div>
-            Тип товара:
+        <div id="prodPrice">Г‚Г»ГЎГҐГ°ГЁГІГҐ ГІГЁГЇ ГІГ®ГўГ Г°Г </div>
+            Г’ГЁГЇ ГІГ®ГўГ Г°Г :
             <form id="new_form">
             <select name="prodType" >
-                <option value="1">Малый</option>
-                <option value="2">Средний</option>
-                <option value="3">Большой</option>
+                <option value="1">ГЊГ Г«Г»Г©</option>
+                <option value="2">Г‘Г°ГҐГ¤Г­ГЁГ©</option>
+                <option value="3">ГЃГ®Г«ГјГёГ®Г©</option>
             </select>
             <div id="radios">
-                <label><input type="radio" name="prodOptions" value="option1">Крепкий</label>
-                <label><input type="radio" name="prodOptions" value="option2">Хрупкий</label>
+                <label><input type="radio" name="prodOptions" value="option1">ГЉГ°ГҐГЇГЄГЁГ©</label>
+                <label><input type="radio" name="prodOptions" value="option2">Г•Г°ГіГЇГЄГЁГ©</label>
             </div>
             <div id="checkboxes">
-                <label><input type="checkbox" name="prop1">Высокий</label>
-                <label><input type="checkbox" name="prop2">Широкий</label>
+                <label><input type="checkbox" name="prop1">Г‚Г»Г±Г®ГЄГЁГ©</label>
+                <label><input type="checkbox" name="prop2">ГГЁГ°Г®ГЄГЁГ©</label>
             </div>
         </form>
     </div>
